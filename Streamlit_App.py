@@ -57,7 +57,9 @@ st.sidebar.header("🔧 Configuration")
 
 selected_hour = st.sidebar.selectbox("Select Hour", list(range(24)))
 selected_day = st.sidebar.selectbox("Select Day (0 = Monday)", list(range(7)))
-selected_month = st.sidebar.selectbox("Select Month", list(range(1, 13)))
+selected_month = st.sidebar.selectbox("Select Month (Jan–May)", list(range(1, 6)))
+
+st.sidebar.info("📅 Dataset covers Jan–May 2016. Predictions are limited to this range.")
 
 model_name = st.sidebar.radio(
     "Choose Model",
