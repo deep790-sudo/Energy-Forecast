@@ -9,6 +9,8 @@ The work involves data cleaning, preprocessing, feature engineering, model train
 
 A Streamlit application has also been developed to allow interactive forecasting and visualization of results.
 
+🔗 **Live Demo:** [energy-forecast-zz.streamlit.app](https://energy-forecast-zz.streamlit.app/)
+
 ---
 
 ## Dataset
