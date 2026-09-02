@@ -11,9 +11,5 @@ __pycache__/
 # OS files
 .DS_Store
 
-# Saved models (too large for GitHub)
-Models/*.pkl
-Models/*.json
-
-# Dataset (too large for GitHub)
+# Dataset (too large for GitHub, not needed by Streamlit app)
 Dataset/
